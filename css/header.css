@@ -4,6 +4,7 @@
 body{
     display: flex;
     flex-direction: row;
+    min-height:400vh;
 }
 header{
     background: linear-gradient(to bottom, #000066 0%, #ffffcc 100%);

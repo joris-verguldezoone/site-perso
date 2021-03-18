@@ -9,9 +9,11 @@
     <link rel="stylesheet" href='css/main.css'>
     <link rel="stylesheet" href='css/footer.css'>
     <!-- font Awesome -->
-    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
-
-
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'> 
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
 
 
 </head>
@@ -19,7 +21,7 @@
 <header>
     <nav>
         <section>
-            <h2>Joris Verguldezoone</h2>
+            <h1>Joris Verguldezoone</h1>
             <img src="images/netero.png">
             <p>Développeur Full-Stack</p>
         </section>

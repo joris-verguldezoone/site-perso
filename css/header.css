@@ -8,8 +8,9 @@ body{
 }
 header{
     background: linear-gradient(to bottom, #000066 0%, #ffffcc 100%);
-    width:30vw;
+    width: 30%;
     height:100%;
+    position: fixed;
 }
 nav{
     display: flex;
@@ -25,21 +26,49 @@ nav{
     flex-direction: row;
     align-items: center;
     list-style: none;
-    background-color:teal;
+    background-color:rgb(6, 17, 168);
     height:10vh;
     width: 20vw;
     margin:2px;
     font-size: 1.7em;
+    text-decoration: none;
+
 }
 .a_nav{
     width:80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
+}
+.a_nav:hover{
+    text-decoration: none;
+
 }
 .nav_items{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#progressFlex{
+    display: flex;
+    flex-direction: row;
+}
+/* progress bar */
+#li_nav_progress{
+    
+    list-style: none;
+    text-decoration: none;
+
+}
+.progress-container {
+    width: 100%;
+}
+
+.progress-bar {
+    height:10vh;
+    background: linear-gradient(to bottom right, #006666 0%, #0000ff 100%);
+    width: 0%;
 }

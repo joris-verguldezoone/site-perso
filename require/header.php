@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
+    <!-- javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 
 </head>
@@ -25,12 +27,18 @@
             <img src="images/netero.png">
             <p>Développeur Full-Stack</p>
         </section>
+        
+        
+        
         <ul>
             <li class="li_nav"><a class="a_nav"><i class="far fa-id-badge"></i>L'humain</a></li>
             <li class="li_nav"><a class="a_nav"><i class="fas fa-robot"></i>La machine</a></li>
             <li class="li_nav"><a class="a_nav"><i class="fas fa-tasks"></i>Mes projets</a></li>
             <li class="li_nav"><a class="a_nav"><i class="far fa-envelope"></i>Me contacter</a></li>
-        </ul>
+            <li id="li_nav_progress"><section class="progress-bar" id="myBar"></section></li>
+            </ul>
+        </div>
     </nav>
 </header>
+<script type="text/javascript" src="script.js"></script>
     

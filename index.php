@@ -3,18 +3,24 @@ require('require/header.php');
 
 
 ?>
-
 <main>
+
     <section id="accueil">1
         <h2>Bonjour et bienvenu sur mon Portefolio</h2>
     </section>
     <section class="cadre" id="humain">2
         <p>22 ans</p>
-        <p>Musique</p>
-        <p class="p_techno">Jeux de strategie</p>
-        <p>Sport</p>
+        <p><i class="fas fa-music"></i>Musique</p>
+        <p class="p_techno"><i class="fas fa-chess"></i>Jeux de strategie</p>
+        <p><i class="fas fa-dumbbell"></i>Sport</p>
         <p class="p_anime">Anime</p>
         <p> <i class="fas fa-utensils"></i>Cuisine</p>
+        <p><i class="fas fa-meteor"></i>Astronomie<p> 
+        <img src="images/Logo_JAXA.png"> 
+        <p><i class="fas fa-id-card"></i> <a href=''>voir CV</a><p>
+            <p>Citation de dieu : Fais selon ta volonté cf berserk/nieztsche</p>
+            
+
     </section>
     <section id="machine">
         <article class="text_block">
@@ -83,6 +89,8 @@ require('require/header.php');
     
     <section id="contact">5
 
+<button id="button" type="button" onclick="showHide()">coucou</button>
+<div id="article">je suis une phrase</div>
     tel 
     mail
     linkedin

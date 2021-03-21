@@ -7,38 +7,47 @@ body{
     min-height:400vh;
 }
 header{
-    background: linear-gradient(to bottom, #000066 0%, #ffffcc 100%);
-    width: 30%;
+    background-image: url('../images/Moonlit\ Asteroid.jpg');
+    width: 20%;
     height:100%;
     position: fixed;
+}
+#header_top_presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 nav{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color:white;
-    padding:40px;
 }
-.li_nav{
+.case_nav{
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    list-style: none;
-    background-color:rgb(6, 17, 168);
-    height:10vh;
-    width: 20vw;
+    /* background-color:rgb(6, 17, 168); */
+    height:8vh;
+    width: 100%;
     margin:2px;
     font-size: 1.7em;
     text-decoration: none;
 
 }
+.a_nav:active{
+    background-color: cadetblue;
+}
 .a_nav{
+    height:50%;
     width:80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   
 }
 .a_nav:hover{
@@ -57,18 +66,14 @@ nav{
     flex-direction: row;
 }
 /* progress bar */
-#li_nav_progress{
-    
-    list-style: none;
-    text-decoration: none;
 
-}
 .progress-container {
     width: 100%;
 }
 
-.progress-bar {
-    height:10vh;
-    background: linear-gradient(to bottom right, #006666 0%, #0000ff 100%);
+.progress-bar-header {
+    height:5vh;
+    background: #22414e;
     width: 0%;
+    border-radius: 2em;
 }

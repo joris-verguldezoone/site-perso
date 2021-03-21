@@ -5,84 +5,167 @@ require('require/header.php');
 ?>
 <main>
 
-    <section id="accueil">1
+    <section id="accueil">
         <h2>Bonjour et bienvenu sur mon Portefolio</h2>
     </section>
-    <section class="cadre" id="humain">2
-        <p>22 ans</p>
-        <p><i class="fas fa-music"></i>Musique</p>
-        <p class="p_techno"><i class="fas fa-chess"></i>Jeux de strategie</p>
-        <p><i class="fas fa-dumbbell"></i>Sport</p>
-        <p class="p_anime">Anime</p>
-        <p> <i class="fas fa-utensils"></i>Cuisine</p>
-        <p><i class="fas fa-meteor"></i>Astronomie<p> 
-        <img src="images/Logo_JAXA.png"> 
-        <p><i class="fas fa-id-card"></i> <a href=''>voir CV</a><p>
-            <p>Citation de dieu : Fais selon ta volonté cf berserk/nieztsche</p>
-            
+    <section class="cadre" id="humain">
+        <div class='display_cadre'>
 
-    </section>
+            <article class="presentation_humain">
+                <img src='images/netero.png'>
+                <p>développeur a temps plein mais pas que</p>
+            </article>
+            
+            <h4>Routine</h4>
+            <article class="presentation_humain">
+                <!-- <p class="p_techno"><i class="fas fa-chess"></i>Jeux de strategie</p>
+                <p></p> -->
+                <article class="presentation_humain_column">
+                    <i class="fas fa-dumbbell icon"></i>
+                    <div clas="presentation_humain_column">
+                        <h5>Le sportif</h5>
+                        <p> Toujours partant ! Roller _ musculation _ sports collectifs</p>
+                    </div>
+                </article>
+                <article class="presentation_humain_column">
+                <i class="fas fa-poo"></i>
+                <div clas="presentation_humain_column">
+                    <h5>Le motivateur </h5>          
+                    <p>De grands discours de motivation que personne n'écoute</p>
+                </div>
+                    <!-- <p>Cuisine</p> -->
+                </article>
+                <article class="presentation_humain_column">
+                    <i class="fas fa-utensils icon"></i>
+                    <div clas="presentation_humain_column">
+                        <h5>Le cuisto</h5>
+                        <p>De l'aligot aux ramens</p>
+
+                    </div>
+
+                </article>
+            </article>
+        
+            <h4>Loisir</h4>
+            
+            <article class="presentation_humain">
+                <article class="presentation_humain_column">
+                    <i class="fas fa-music icon"></i>
+                    <div class="presentation_humain_column">
+                        <h5>Le rythm</h5>
+                        <p>basse guitare ableton</p>
+                    </div>
+                </article>
+
+
+                
+                <article class="presentation_humain_column">
+                    <h5 class="p_anime">Manga /Bande dessinée</h5>
+                    <p>Requieme, hxh, berserk, GITS, akira, fma</p>
+
+                </article>
+                <article class="presentation_humain_column">
+                    <i class="fas fa-meteor icon"></i>
+                <!-- <p>Astronomie<p> -->
+                <div class="presentation_humain_column">
+                <h5>Le visiteur</h5>
+                    
+                    <p>Le plus difficile est d'avoir les pieds sur terre</p>
+                </div> 
+                <img src="images/Logo_JAXA.png">
+                </article>
+            </article>
+                <!-- <article class="presentation_humain_column">
+                    <h4>Mon parcours</h4>
+                        <p><i class="fas fa-id-card icon"></i> <a href=''>voir CV</a><p>
+                            </article>
+                            <article class="presentation_humain_column">
+                                <p>Citation de dieu : Fais selon ta volonté cf berserk/nieztsche</p>
+                            </article>
+                </article> -->
+            </div>
+        </section>
+
     <section id="machine">
+        <div class="display_cadre">
         <article class="text_block">
-            <p>Ambition</p>
             <article class="row_text">
+            <h5>Ambition</h5>
 
                 <p>dev mobile</p>
                 <p>dev application</p>
 
             </article>
 
-        <p>Compétences</p>
-        <article class="row_text">
-            <p>MCD</p>
-                    <p>MVC</p>
+            <article class="row_text">
+            <h5>Compétences</h5>
+                <p>MCD</p>
+                <p>MVC</p>
 
+            </article>
         </article>
-        </article>
-            <section id='progressbar_block'>
-                <article class="article_progressbar">
+        
+        <section id='progressbar_block'>
+            <article class="article_progressbar">
             
                     <p>BACK</p>
                     <div class="progress"> 
-                    <div class="progress-bar  progress-bar-striped bg-dark" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" id='back'  style="width: 85%;"></div>
                     </div>
                     <p>php </p>
                     <div class="progress">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar " id='php' style="width: 90%"></div>
                     </div>
                     <p>sql</p>
                     <div class="progress">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar " id='sql' style="width: 85%" ></div>
                     </div>
             </article>
             <article class="article_progressbar">
                 <p>FRONT</p>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar " id='front' style="width: 65%"></div>
                 </div>
                 <p>html</p>
                 <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar " id='html' style="width: 80%" ></div>
                 </div>
                 <p>css</p>
                 <div class="progress">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar " id='css' style="width: 65%"></div>
                 </div>
                 <p>js</p>
                 <div class="progress">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar " id='js' style="width: 60%"></div>
                 </div>
             </article>
-            
-        </section>
+            </div>
         </section>
 
+    </section>
+    <section id="projet">
+        <section class="display_cadre">
+            <div class="display_flex_row">
+            <h5>boutique</h5>
+            <h5>blog</h5>
+            </div>
+            <div class="display_flex_row">
+                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>
+                    
+                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>   
+            </div>
+            <div class="display_flex_row">
+            <h5>voyage</h5>
+            <h5>phonoteque</h5>
+            </div>
+            <div class='display_flex_row'>
+                
+                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>
+
+                
+                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>
+            </div>
         </section>
-    <section id="projet">4
-    <p>blog</p>
-    <p>boutique</p>
-    <p>voyage</p>
-    <p>phonoteque</p>
     </section>
     
    

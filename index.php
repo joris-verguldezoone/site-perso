@@ -9,8 +9,14 @@ require('require/header.php');
         <h2>Bonjour et bienvenu sur mon Portefolio</h2>
     </section>
     <section class="cadre" id="humain">
-        <div class='display_cadre'>
 
+     <div class='display_cadre'>
+        <div class="div_presentation">
+            <img alt="photo de moi"> 
+            <p class="p_presentation">Je suis un developper <strong>full-Stack</strong> issu de <strong>La Plateforme</strong> a Marseille. Actuellement en formation je suis disponible a partir du 1er septembre pour de l'alternance</p>
+            <a class="p_presentation a_button">Mon parcours, mon CV</a>
+        </div>
+<!--  
             <article class="presentation_humain">
                 <img src='images/netero.png'>
                 <p>développeur a temps plein mais pas que</p>
@@ -18,8 +24,8 @@ require('require/header.php');
             
             <h4>Routine</h4>
             <article class="presentation_humain">
-                <!-- <p class="p_techno"><i class="fas fa-chess"></i>Jeux de strategie</p>
-                <p></p> -->
+                 <p class="p_techno"><i class="fas fa-chess"></i>Jeux de strategie</p>
+                <p></p> 
                 <article class="presentation_humain_column">
                     <i class="fas fa-dumbbell icon"></i>
                     <div clas="presentation_humain_column">
@@ -33,7 +39,7 @@ require('require/header.php');
                     <h5>Le motivateur </h5>          
                     <p>De grands discours de motivation que personne n'écoute</p>
                 </div>
-                    <!-- <p>Cuisine</p> -->
+                    <p>Cuisine</p>
                 </article>
                 <article class="presentation_humain_column">
                     <i class="fas fa-utensils icon"></i>
@@ -66,7 +72,7 @@ require('require/header.php');
                 </article>
                 <article class="presentation_humain_column">
                     <i class="fas fa-meteor icon"></i>
-                <!-- <p>Astronomie<p> -->
+                <p>Astronomie<p>
                 <div class="presentation_humain_column">
                 <h5>Le visiteur</h5>
                     
@@ -75,7 +81,7 @@ require('require/header.php');
                 <img src="images/Logo_JAXA.png">
                 </article>
             </article>
-                <!-- <article class="presentation_humain_column">
+                <article class="presentation_humain_column">
                     <h4>Mon parcours</h4>
                         <p><i class="fas fa-id-card icon"></i> <a href=''>voir CV</a><p>
                             </article>
@@ -83,7 +89,7 @@ require('require/header.php');
                                 <p>Citation de dieu : Fais selon ta volonté cf berserk/nieztsche</p>
                             </article>
                 </article> -->
-            </div>
+            </div> 
         </section>
 
     <section id="machine">

@@ -60,6 +60,14 @@ main{
  
     height: 100%;
 }
+.div_presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:80%;
+    width:100%;
+    align-items: center;
+}
 .presentation_humain_column{
     display: flex;
     flex-direction: row;
@@ -168,4 +176,16 @@ main{
     flex-direction: row;
     justify-content: space-around;
 
+}
+.p_presentation{
+    font-size: 2em;
+}
+.a_button{
+    background-color: teal;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2em;
+    box-shadow: 3px 3px 3px black;
 }

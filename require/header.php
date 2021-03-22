@@ -7,7 +7,6 @@
     <title>Portefolio</title>
     <link rel="stylesheet" href='css/header.css'>
     <link rel="stylesheet" href='css/main.css'>
-    <link rel="stylesheet" href='css/footer.css'>
     <!-- font Awesome -->
     <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'> 
     <!-- bootstrap -->
@@ -24,15 +23,16 @@
     <nav>
         <section id='header_top_presentation'>
             <h1>Joris Verguldezoone</h1>
-            <img src="images/netero.png">
+            <img class="img_header" src="images/netero.png">
             <p>Développeur Full-Stack</p>
         </section>
         
         
-            <span class="case_nav"><a class="a_nav"><i class="far fa-id-badge"></i>L'humain</a></span>
-            <span class="case_nav"><a class="a_nav"><i class="fas fa-robot"></i>La machine</a></span>
-            <span class="case_nav"><a class="a_nav"><i class="fas fa-tasks"></i>Mes projets</a></span>
-            <span class="case_nav"><a class="a_nav"><i class="far fa-envelope"></i>Me contacter</a></span>
+            <span class="case_nav"><a class="a_nav" href='#humain'><i class="far fa-id-badge"></i>L'humain</a></span>
+            <span class="case_nav"><a class="a_nav" href='#machine'><i class="fas fa-robot"></i>La machine</a></span>
+            <span class="case_nav"><a class="a_nav" href='#projet'><i class="fas fa-tasks"></i>Mes projets</a></span>
+            <span class="case_nav"><a class="a_nav" href='#contact'><i class="far fa-envelope"></i>Me contacter</a></span>
+            <!-- il manquye une div -->
            <section class="progress-bar-header" id="myBar"></section>
         </div>
     </nav>

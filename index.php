@@ -94,76 +94,83 @@ require('require/header.php');
 
     <section id="machine">
         <div class="display_cadre">
-   
+            <h4>La machine</h4>
+            <section id='progressbar_block'>
+                <article class="article_progressbar">
                 
-
-        
-        <section id='progressbar_block'>
-            <article class="article_progressbar">
-            
-                    <p>BACK</p>
-                    <div class="progress"> 
-                    <div class="progress-bar" id='back'  style="width: 87.5%;"></div>
+                        <p>BACK</p>
+                        <div class="progress"> 
+                            <div class="progress-bar" id='back'  style="width: 87.5%;"></div>
+                        </div>
+                        <p>php </p>
+                        <div class="progress">
+                            <div class="progress-bar " id='php' style="width: 90%"></div>
+                        </div>
+                        <p>sql</p>
+                        <div class="progress">
+                            <div class="progress-bar " id='sql' style="width: 85%" ></div>
+                        </div>
+                    <div class="text_block_row">
+                        <p>MVC<i class="fas fa-check"></i></p>
+                        <p>MCD<i class="fas fa-check"></i></p>
                     </div>
-                    <p>php </p>
+                </article>
+                <article class="article_progressbar">
+                    <p>FRONT</p>
                     <div class="progress">
-                    <div class="progress-bar " id='php' style="width: 90%"></div>
+                        <div class="progress-bar " id='front' style="width: 65%"></div>
                     </div>
-                    <p>sql</p>
+                    <p>html</p>
                     <div class="progress">
-                    <div class="progress-bar " id='sql' style="width: 85%" ></div>
-                </div>
-                <div class="text_block_row">
-                    <p>MVC<i class="fas fa-check"></i></p>
-                    <p>MCD<i class="fas fa-check"></i></p>
-                </div>
-            </article>
-            <article class="article_progressbar">
-                <p>FRONT</p>
-                <div class="progress">
-                    <div class="progress-bar " id='front' style="width: 65%"></div>
-                </div>
-                <p>html</p>
-                <div class="progress">
-                    <div class="progress-bar " id='html' style="width: 80%" ></div>
-                </div>
-                <p>css</p>
-                <div class="progress">
-                    <div class="progress-bar " id='css' style="width: 65%"></div>
-                </div>
-                <p>js</p>
-                <div class="progress">
-                    <div class="progress-bar " id='js' style="width: 55%"></div>
-                </div>
-            </article>
+                        <div class="progress-bar " id='html' style="width: 80%" ></div>
+                    </div>
+                    <p>css</p>
+                    <div class="progress">
+                        <div class="progress-bar " id='css' style="width: 65%"></div>
+                    </div>
+                    <p>js</p>
+                    <div class="progress">
+                        <div class="progress-bar " id='js' style="width: 55%"></div>
+                    </div>
+                </article>
+                
+            </div>
+            <div class="row_img">
+                <img class='img_langage' src='images/php.png' alt='Php'>
+                <img class='img_langage' src='images/sql.png' alt='Sql'>
+                <img class='img_langage' src='images/html5-icon-13.jpg' alt='Html'>
+                <img class='img_langage' src='images/css.png' alt='Css'>
+                <img class='img_langage' src='images/javascript.png' alt='Javascript'>
                 
             </div>
         </section>
 
     </section>
     <section id="projet">
-        <section class="display_cadre">
             <div class="display_flex_row">
-            <h5>boutique</h5>
-            <h5>blog</h5>
+            <h5>Boutique</h5>
+            <h5>Phonoteque</h5>
             </div>
             <div class="display_flex_row">
-                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>
+                <a class=""><img class="projet_img_dimension" src="images/boutique.png" alt="boutique en ligne" ></a>
                     
-                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>   
+                <a class=""><img class="projet_img_dimension" src="images/phonoteque.png" alt="phonoteque" ></a> 
             </div>
             <div class="display_flex_row">
-            <h5>voyage</h5>
-            <h5>phonoteque</h5>
+            <h5>Discussion</h5>
+            <h5>Blog</h5>
             </div>
             <div class='display_flex_row'>
                 
-                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>
+                <a class=""><img class="projet_img_dimension" src="images/Discussions.png" alt="site de discussion" ></a>
 
                 
-                <a class=""><img class="projet_img_dimension" src="" alt="" ></a>
+                <a class=""><img class="projet_img_dimension" src="images/blog.png" alt="blog sur les jeux vidéos" ></a>
             </div>
-        </section>
+            <div id='test'>
+
+            <p class='p_slide' class='revealOnScroll' data-animation='fadeInUp'>En cours d'importation...</p >
+            </div>
     </section>
     
    
@@ -183,6 +190,8 @@ require('require/header.php');
     </section>
 
 
+
+    
 </main>
 
 

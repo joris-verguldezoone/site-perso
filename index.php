@@ -10,11 +10,11 @@ require('require/header.php');
     </section>
     <section class="cadre" id="humain">
 
-     <div class='display_cadre'>
+     <div class='display_presentation'>
         <div class="div_presentation">
-            <img alt="photo de moi"> 
+            <img id='photo2moa' src="images/photo2moa.jpg" alt="photo de moi"> 
             <p class="p_presentation">Je suis un developper <strong>full-Stack</strong> issu de <strong>La Plateforme</strong> a Marseille. Actuellement en formation je suis disponible a partir du 1er septembre pour de l'alternance</p>
-            <a class="p_presentation a_button">Mon parcours, mon CV</a>
+            <a class="p_presentation a_button" href='images/CV-VERGULDEZOONE_JORIS.pdf' target="_blank">Mon parcours, mon CV</a>
         </div>
 <!--  
             <article class="presentation_humain">
@@ -94,29 +94,16 @@ require('require/header.php');
 
     <section id="machine">
         <div class="display_cadre">
-        <article class="text_block">
-            <article class="row_text">
-            <h5>Ambition</h5>
+   
+                
 
-                <p>dev mobile</p>
-                <p>dev application</p>
-
-            </article>
-
-            <article class="row_text">
-            <h5>Compétences</h5>
-                <p>MCD</p>
-                <p>MVC</p>
-
-            </article>
-        </article>
         
         <section id='progressbar_block'>
             <article class="article_progressbar">
             
                     <p>BACK</p>
                     <div class="progress"> 
-                    <div class="progress-bar" id='back'  style="width: 85%;"></div>
+                    <div class="progress-bar" id='back'  style="width: 87.5%;"></div>
                     </div>
                     <p>php </p>
                     <div class="progress">
@@ -125,7 +112,11 @@ require('require/header.php');
                     <p>sql</p>
                     <div class="progress">
                     <div class="progress-bar " id='sql' style="width: 85%" ></div>
-                    </div>
+                </div>
+                <div class="text_block_row">
+                    <p>MVC<i class="fas fa-check"></i></p>
+                    <p>MCD<i class="fas fa-check"></i></p>
+                </div>
             </article>
             <article class="article_progressbar">
                 <p>FRONT</p>
@@ -142,9 +133,10 @@ require('require/header.php');
                 </div>
                 <p>js</p>
                 <div class="progress">
-                    <div class="progress-bar " id='js' style="width: 60%"></div>
+                    <div class="progress-bar " id='js' style="width: 55%"></div>
                 </div>
             </article>
+                
             </div>
         </section>
 

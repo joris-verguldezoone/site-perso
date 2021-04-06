@@ -97,7 +97,7 @@ main{
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
-    height: 50%;
+    height: 70%;
     flex-direction: column;
 }
 #conception{

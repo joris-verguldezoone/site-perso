@@ -29,10 +29,10 @@ require('require/header.php');
     <section id="machine">
         <span class=' titre_partie_machine'>La machine</span>
         <div class="display_cadre">
+                        <!-- <span class='p_presentation'>Conception:</span> -->
             <div id='conception'>
                 <section id='progressbar_block'>  
                     <div class="text_block_row">
-                        <span class='p_presentation'>Conception:</span>
                         <span class='p_presentation'>MVC<i class="fas fa-check"></i></span>
                         <span class='p_presentation'>MCD<i class="fas fa-check"></i></span>
                         <span class='p_presentation'>MLD<i class="fas fa-check"></i></span>      
@@ -49,6 +49,9 @@ require('require/header.php');
                     <span class='p_presentation'>API paiement</span>
                     <img src='images/stripe-logo-blue.png' class="img_langage_horizontal" alt='Logo de Stripe'>
                 </div>
+                <div class='column'>
+           
+
             </div>
         </div>
         <div id='langages'>

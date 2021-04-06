@@ -4,11 +4,17 @@ require('require/header.php');
 
 ?>
 <main>
-    
+
     <section id="accueil">
-        <h2>Bonjour et bienvenu sur mon Portefolio</h2>
+    <div class='center_top'>
+
+        <h2>Bonjour et bienvenu sur mon Portfolio</h2>
+    </div>
+    <div class='center'>
+
+        <section id='fleche_accueil'><a href='#humain'><img src='images/down-arrow.png' class='array' alt='down arrow'></a></section>
+    </div>
     </section>
-</section>
     <section class="cadre" id="humain">
 
      <div class='display_presentation'>
@@ -17,151 +23,61 @@ require('require/header.php');
             <p class="p_presentation">Je suis un developper <strong>full-Stack</strong> issu de <strong>La Plateforme</strong> a Marseille. Actuellement en formation je suis disponible a partir du 1er septembre pour de l'alternance</p>
             <a class="p_presentation a_button" href='images/CV-VERGULDEZOONE_JORIS.pdf' target="_blank">Mon parcours, mon CV</a>
         </div>
-<!--  
-            <article class="presentation_humain">
-                <img src='images/netero.png'>
-                <p>développeur a temps plein mais pas que</p>
-            </article>
-            
-            <h4>Routine</h4>
-            <article class="presentation_humain">
-                 <p class="p_techno"><i class="fas fa-chess"></i>Jeux de strategie</p>
-                <p></p> 
-                <article class="presentation_humain_column">
-                    <i class="fas fa-dumbbell icon"></i>
-                    <div clas="presentation_humain_column">
-                        <h5>Le sportif</h5>
-                        <p> Toujours partant ! Roller _ musculation _ sports collectifs</p>
-                    </div>
-                </article>
-                <article class="presentation_humain_column">
-                <i class="fas fa-poo"></i>
-                <div clas="presentation_humain_column">
-                    <h5>Le motivateur </h5>          
-                    <p>De grands discours de motivation que personne n'écoute</p>
-                </div>
-                    <p>Cuisine</p>
-                </article>
-                <article class="presentation_humain_column">
-                    <i class="fas fa-utensils icon"></i>
-                    <div clas="presentation_humain_column">
-                        <h5>Le cuisto</h5>
-                        <p>De l'aligot aux ramens</p>
-
-                    </div>
-
-                </article>
-            </article>
-        
-            <h4>Loisir</h4>
-            
-            <article class="presentation_humain">
-                <article class="presentation_humain_column">
-                    <i class="fas fa-music icon"></i>
-                    <div class="presentation_humain_column">
-                        <h5>Le rythm</h5>
-                        <p>basse guitare ableton</p>
-                    </div>
-                </article>
-
-
-                
-                <article class="presentation_humain_column">
-                    <h5 class="p_anime">Manga /Bande dessinée</h5>
-                    <p>Requieme, hxh, berserk, GITS, akira, fma</p>
-
-                </article>
-                <article class="presentation_humain_column">
-                    <i class="fas fa-meteor icon"></i>
-                <p>Astronomie<p>
-                <div class="presentation_humain_column">
-                <h5>Le visiteur</h5>
-                    
-                    <p>Le plus difficile est d'avoir les pieds sur terre</p>
-                </div> 
-                <img src="images/Logo_JAXA.png">
-                </article>
-            </article>
-                <article class="presentation_humain_column">
-                    <h4>Mon parcours</h4>
-                        <p><i class="fas fa-id-card icon"></i> <a href=''>voir CV</a><p>
-                            </article>
-                            <article class="presentation_humain_column">
-                                <p>Citation de dieu : Fais selon ta volonté cf berserk/nieztsche</p>
-                            </article>
-                </article> -->
             </div> 
-            </section>
+        </section>
 
     <section id="machine">
-        <h4>La machine</h4>
-        <div class="display_center">
-            <div class="display_cadre_machine">
-                    <section class="row_img">
-                    
-                    <article class="article_progressbar">
-                    
-                            <p>BACK</p>
-                            <div class="progress"> 
-                                <div class="progress-bar" id='back'  style="width: 87.5%;"></div>
-                            </div>
-                            <p>php </p>
-                            <div class="progress">
-                                <div class="progress-bar " id='php' style="width: 90%"></div>
-                            </div>
-                            <p>sql</p>
-                            <div class="progress">
-                                <div class="progress-bar " id='sql' style="width: 85%" ></div>
-                            </div>
-                        <div class="text_block_row">
-                            <p>MVC<i class="fas fa-check"></i></p>
-                            <p>MCD<i class="fas fa-check"></i></p>
-                        </div>
-                    </article>
-                    <article class="article_progressbar">
-                        <p>FRONT</p>
-                        <div class="progress">
-                            <div class="progress-bar " id='front' style="width: 65%"></div>
-                        </div>
-                        <p>html</p>
-                        <div class="progress">
-                            <div class="progress-bar " id='html' style="width: 80%" ></div>
-                        </div>
-                        <p>css</p>
-                        <div class="progress">
-                            <div class="progress-bar " id='css' style="width: 65%"></div>
-                        </div>
-                        <p>js</p>
-                        <div class="progress">
-                            <div class="progress-bar " id='js' style="width: 55%"></div>
-                        </div>
-                    </article>
-                    </section>
-                <div class="row_img">
-                    <img class='img_langage' src='images/php.png' alt='Php'>
-                    <img class='img_langage' src='images/sql.png' alt='Sql'>
-                    <img class='img_langage' src='images/html5-icon-13.jpg' alt='Html'>
-                    <img class='img_langage' src='images/css.png' alt='Css'>
-                    <img class='img_langage' src='images/javascript.png' alt='Javascript'>
-                    
+        <span class=' titre_partie_machine'>La machine</span>
+        <div class="display_cadre">
+            <div id='conception'>
+                <section id='progressbar_block'>  
+                    <div class="text_block_row">
+                        <span class='p_presentation'>Conception:</span>
+                        <span class='p_presentation'>MVC<i class="fas fa-check"></i></span>
+                        <span class='p_presentation'>MCD<i class="fas fa-check"></i></span>
+                        <span class='p_presentation'>MLD<i class="fas fa-check"></i></span>      
+                    </div>
+             </section> 
+                  
+            </div>
+            <div class='space_around_row_machine'>
+                <div class='column'>
+                    <span class='p_presentation'>Maquettage</span>
+                    <img src='images/figma-logo.webp' class="img_langage_horizontal" alt='Logo de figma'>
+                </div>
+                <div class='column'>
+                    <span class='p_presentation'>API paiement</span>
+                    <img src='images/stripe-logo-blue.png' class="img_langage_horizontal" alt='Logo de Stripe'>
                 </div>
             </div>
         </div>
-</section>
+        <div id='langages'>
+            <div class="row_img_langages">
+                <img class='img_langage' src='images/php.png' alt='Logo de Php'>
+                <img class='img_langage' src='images/sql.png' alt='Logo de Sql'>
+                <img class='img_langage' src='images/html5-icon-13.jpg' alt='Logo de Html'>
+                <img class='img_langage' src='images/css.png' alt='Logo de Css'>
+                <img class='img_langage' src='images/javascript.png' alt='Logo de Javascript'>
+            </div>
+        </div>
+           
+        </section>
+
     </section>
     <section id="projet">
-            <div class="display_flex_row">
-            <h5>Boutique</h5>
-            <h5>Phonoteque</h5>
+        <span class="titre_partie">Projet</span>
+            <div class="display_flex_row_titre">
+            <span class=' p_presentation titre_projet'>Boutique</span>
+            <span class=' p_presentation titre_projet'>Phonoteque</span>
             </div>
             <div class="display_flex_row">
-                <a class=""><img class="projet_img_dimension" src="images/boutique.png" alt="boutique en ligne" ></a>
+                <a class=""><img class="projet_img_dimension" src="images/boutique.png" alt="Projet boutique en ligne" ></a>
                     
-                <a class=""><img class="projet_img_dimension" src="images/phonoteque.png" alt="phonoteque" ></a> 
+                <a class=""><img class="projet_img_dimension" src="images/phonoteque.png" alt="Projet phonoteque" ></a> 
             </div>
-            <div class="display_flex_row">
-            <h5>Discussion</h5>
-            <h5>Blog</h5>
+            <div class="display_flex_row_titre">
+            <span class=' p_presentation titre_projet'>Discussion</span>
+            <span class='p_presentation titre_projet'>Blog</span>
             </div>
             <div class='display_flex_row'>
                 
@@ -177,25 +93,39 @@ require('require/header.php');
     </section>
     
    
-    <section id="footer">
-        
-        <div id="copyRight">
-            
-            <p>©Joris Verguldezoone <br/> 2020/2021</p> 
+    
+    <section id="contact">
+
+    <section class='space_around_row'>
+        <div class='column'>
+            <a href='https://www.linkedin.com/in/joris-verguldezoone-36a39b153/' target='_blank'><i class="fab fa-linkedin"></i></a>
+            <span class='p_presentation'>Connectons nous</span>
             
         </div>
-        <div id='contact'>
-            <a href='https://www.linkedin.com/in/joris-verguldezoone-36a39b153/' target='_blank' class='a_footer'><i  style="color:#0274B3;" class="fab fa-linkedin"></i></a>
-            <a href='https://www.facebook.com/joris.aotbwtfh' class='a_footer' target='_blank' ><i style="color:#4867AA" class="fab fa-facebook-square"></i></a>
-            <a href='mailto:joris.verguldezoone@laplateforme.io' class='a_footer' target='_blank'  ><i style="color:white;" class="fas fa-envelope"></i></a>
-            <a href='https://github.com/joris-verguldezoone' class='a_footer' target='_blank' ><i  style="color:black;" class="fab fa-github-square"></i></a>
+        <div class='column'>
+            <a href='mailto:joris.verguldezoone@laplateforme.io' target='_blank'><i class="far fa-envelope envelope2"></i></a>    
+            <span class='p_presentation'>Envoyez moi un mail</span>
+
         </div>
-        
+        <div class='column'>
+            <a href='https://github.com/joris-verguldezoone' target='_blank'><i class="fab fa-github-square"></i></a>
+            <span class='p_presentation'>Inspectez mes projets</span>
+
+        </div>
     </section>
+    <section class='space_around_row'>
+        <span>©Joris Verguldezoone | 2021</span>
+    </section>
+</section>  
+
+
+
     
 </main>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" src="libraries/javascript.js"></script>
-</body>
-</html>
+
+
+<?php
+
+require('require/footer.php');
+?>

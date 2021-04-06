@@ -1,3 +1,26 @@
+// function showHide() {
+//     let button = document.getElementById("button");
+//     // équivalent de if(isset(onclick)) mais les dev en C t'insulte 
+//     button.onclick = function showAndHide() {
+//         let article = document.getElementById("article");
+//         if (article.style.display === "none")
+//         // si rien est affiché, (car style->display:none;) alors on affiche style->display:block;
+
+//         {
+//             article.style.display = "block";
+//         }
+//         else
+//         // si le click n'est pas fait ou qu'on retire le premier alors style->display:none;
+//         {
+//             article.style.display = "none";
+//         }
+//     }
+// }
+
+
+// hide and show details
+
+
 function loadBarre() {
 
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop; // calcul le nb de pixel par rapport au top
@@ -32,40 +55,9 @@ function loadAnimation() {
 
 }
 
+
+
 document.onscroll = function () {
 
     loadAnimation()
 };
-
-// ta mere
-$("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
- });
- $("#menu-toggle-2").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled-2");
-    $('#menu ul').hide();
- });
- 
- function initMenu() {
-    $('#menu ul').hide();
-    $('#menu ul').children('.current').parent().show();
-    //$('#menu ul:first').show();
-    $('#menu li a').click(
-       function() {
-          var checkElement = $(this).next();
-          if ((checkElement.is('ul')) && (checkElement.is(':visible'))) {
-             return false;
-          }
-          if ((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
-             $('#menu ul:visible').slideUp('normal');
-             checkElement.slideDown('normal');
-             return false;
-          }
-       }
-    );
- }
- $(document).ready(function() {
-    initMenu();
- });

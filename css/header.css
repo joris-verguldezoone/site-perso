@@ -1,239 +1,94 @@
 *{
     margin:0;
 }
-@media (min-width: 1281px) {
-  
-    body{
-        display: flex;
-        flex-direction: row;
-        min-height:350vh;
-    }
-    header{
-        background-image: url('../images/Moonlit\ Asteroid.jpg');
-        width: 20%;
-        height:100%;
-        position: fixed;
-    }
-    #header_top_presentation{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    h1{
-        color:white;  
-        font-size: 3em;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color:white;
-    }
-    .case_nav{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-        /* background-color:rgb(6, 17, 168); */
-        height:8vh;
-        width: 100%;
-        margin:2px;
-        font-size: 1.7em;
-        text-decoration: none;
-    
-    }
-    .a_nav:active{
-        background-color: cadetblue;
-    
-    }
-    .a_nav{
-        height:50%;
-        width:80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        color:whitesmoke;
-        text-decoration: none;
-      
-    }
-    .a_nav:hover{
-        text-decoration: none;
-    
-    }
-    .nav_items{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #progressFlex{
-        display: flex;
-        flex-direction: row;
-    }
-    /* progress bar */
-    
-    .progress-container {
-        width: 100%;
-    }
-    
-    .progress-bar-header {
-        height:5vh;
-        background: red;
-        width: 0%;
-        border-radius: 2em;
-    }
-        
-  }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    body{
-        display: flex;
-        flex-direction: row;
-        min-height:350vh;
-    }
-    header{
-        background-image: url('../images/Moonlit\ Asteroid.jpg');
-        width: 15%;
-        height:100%;
-        position: fixed;
-    }
-    #header_top_presentation{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        height:17vh;
-    }
-    .img_header{
-        height:100px;
-        width:100px;
-    }
-    h1{
-        color:white;  
-        font-size: 1.3em;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        color:white;
-        height:50vh;
+body{
+    display: flex;
+    flex-direction: row;
+    min-height:400vh;
+}
+header{
+    background-image: url('../images/Moonlit\ Asteroid.jpg');
+    width: 20%;
+    height:100%;
+    position: fixed;
+}
+#header_top_presentation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height:40vh;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+}
 
-    }
-    .case_nav{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-        /* background-color:rgb(6, 17, 168); */
-        height:4vh;
-        width: 100%;
-        margin:2px;
-        font-size: 1.1em;
-        text-decoration: none;
-    
-    }
-    .a_nav:active{
-        background-color: cadetblue;
-    
-    }
-    .a_nav{
-        height:50%;
-        width:80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        color:whitesmoke;
-        text-decoration: none;
-      
-    }
-    .a_nav:hover{
-        text-decoration: none;
-    
-    }
-    .nav_items{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #progressFlex{
-        display: flex;
-        flex-direction: row;
-    }
-    /* progress bar */
-    
-    .progress-container {
-        width: 100%;
-    }
-    
-    .progress-bar-header {
-        height:5vh;
-        background: red;
-        width: 0%;
-        border-radius: 2em;
-    }
-        
-  }
-      
-  
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    /* CSS */
-    
+.case_nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    /* background-color:rgb(6, 17, 168); */
+    height:8vh;
+    width: 100%;
+    margin:2px;
+    font-size: 1.7em;
+    text-decoration: none;
 
-/* media querries */
-  }
+}
+.a_nav:active{
+    background-color: cadetblue;
+}
+.a_nav{
+    height:50%;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: 'Roboto', sans-serif;
+  
+}
+#description_nav{
+    font-family: 'Roboto', sans-serif;
+
+}
+.a_nav:hover{
+    text-decoration: none;
+
+}
+.nav_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#progressFlex{
+    display: flex;
+    flex-direction: row;
+}
+/* progress bar */
+
+.progress-container {
+    width: 100%;
+}
+
+.progress-bar-header {
+    height:5vh;
+    background: #22414e;
+    width: 0%;
+    border-radius: 2em;
+}

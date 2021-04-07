@@ -22,7 +22,7 @@
     width:200px;
 }
 #fleche_accueil{
-    padding-top: 45vh;
+    padding-top: 25%;
 }
 h2{
     color:black;
@@ -190,7 +190,7 @@ main{
 }
 #projet{
     
-    height:23%;
+    height:25%;
     padding-left:30px;
     padding-bottom:30px;
     display: flex;
@@ -246,7 +246,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     /* align-items: flex-end; */
-    margin-top: 8%;
+    /* margin-top: 8%; */
 
 }
 .row_img{
@@ -261,7 +261,7 @@ main{
 }
 .titre_block{
     font-family: 'Roboto', sans-serif;
-}
+} 
 .article_progressbar{
     width:40%;
     height:50%;
@@ -271,7 +271,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height:50%;
+    height:37%;
 }
 .column{
     display: flex;
